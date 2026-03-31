@@ -39,3 +39,6 @@ licensed under [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0)
 6. Go to Algorithms - Land cover change  - Execute locally -  set initial (2000) and target (2015) files just created - name the execution
 7. Try changing the transition matrix  - no default interpretation
 8. Activate Land Compute statistics using `lc_degradation_stats.py` in the QGIS Python Console
+
+## Download all files
+<CODE> Download zip files
