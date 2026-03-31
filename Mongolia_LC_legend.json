@@ -1,0 +1,22 @@
+{
+    "name": "Mongolia National Land Cover",
+    "key": [
+        {"code": 10, "name_long": "Water body",    "name_short": "Water body",    "description": null, "color": "#0053c4"},
+        {"code": 11, "name_long": "Glacier",       "name_short": "Glacier",       "description": null, "color": "#efe0e9"},
+        {"code": 20, "name_long": "Urban",         "name_short": "Urban",         "description": null, "color": "#e60017"},
+        {"code": 30, "name_long": "Bare land",     "name_short": "Bare land",     "description": null, "color": "#8d2c06"},
+        {"code": 31, "name_long": "Rock",          "name_short": "Rock",          "description": null, "color": "#6b5147"},
+        {"code": 32, "name_long": "Sand",          "name_short": "Sand",          "description": null, "color": "#f2ea0a"},
+        {"code": 40, "name_long": "Forest",        "name_short": "Forest",        "description": null, "color": "#8fe142"},
+        {"code": 41, "name_long": "Evergreen",     "name_short": "Evergreen",     "description": null, "color": "#619d26"},
+        {"code": 42, "name_long": "Mixed forest",  "name_short": "Mixed forest",  "description": null, "color": "#7eed0f"},
+        {"code": 50, "name_long": "Desert steppe", "name_short": "Desert steppe", "description": null, "color": "#e19f42"},
+        {"code": 60, "name_long": "Dry steppe",    "name_short": "Dry steppe",    "description": null, "color": "#eec922"},
+        {"code": 61, "name_long": "Meadow steppe", "name_short": "Meadow steppe", "description": null, "color": "#d1f219"},
+        {"code": 63, "name_long": "Steppe",        "name_short": "Steppe",        "description": null, "color": "#f0e112"},
+        {"code": 70, "name_long": "Desert",        "name_short": "Desert",        "description": null, "color": "#a68d72"},
+        {"code": 80, "name_long": "Wetland",       "name_short": "Wetland",       "description": null, "color": "#15ebcb"},
+        {"code": 90, "name_long": "Cropland",      "name_short": "Cropland",      "description": null, "color": "#d366a9"}
+    ],
+    "nodata": {"code": -32768, "name_long": "No data", "name_short": "No data", "description": null, "color": "#000000"}
+}
