@@ -35,10 +35,12 @@ licensed under [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0)
 2. Load the two rasters (CTRL-SHIFT R) in QGIS and apply the `.qml` style
 3. Go to **Trends.Earth/Datasets  → Import datasets ** Import custom land cover dataset (tif) - set year (2000) and resolution (250m) 
 4. Choose a land cover aggregation method - ready Load definition from file: reclass_sset_mongolia.json
-5. Repeat the same for 2015 land cover
+5. Repeat the same for 2015 land cover and 2020 land cover 
 6. Go to Algorithms - Land cover change  - Execute locally -  set initial (2000) and target (2015) files just created - name the execution
-7. Try changing the transition matrix  - no default interpretation
-8. Activate Land Compute statistics using `lc_degradation_stats.py` in the QGIS Python Console
+7. Repeat the same for LC 2015 to 2020 (reporting period)
+8. Try changing the transition matrix  - no default interpretation - a modified transition matrix is added as an example (transtiion_sset_mongolia.json)
+9. Go to Algorthms - Land Cover Change - Execute locally - com[pute land cover change and degradation for the baseline (2000-2015) and for the reporting period (2015-2020)
+10. ActivateLand Compute statistics algorithm (local execution) using `lc_degradation_stats.py` in the QGIS Python Console
 
 ## Download all files
 <CODE> Download zip files
