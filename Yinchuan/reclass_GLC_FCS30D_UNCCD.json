@@ -1,0 +1,65 @@
+{
+    "parent": {
+        "name": "Custom Land Cover",
+        "key": [
+            {"code": 1, "name_long": "Tree-covered", "name_short": "Tree-covered", "description": null, "color": "#787F1B"},
+            {"code": 2, "name_long": "Grassland",    "name_short": "Grassland",    "description": null, "color": "#FFAC42"},
+            {"code": 3, "name_long": "Cropland",     "name_short": "Cropland",     "description": null, "color": "#FFFB6E"},
+            {"code": 4, "name_long": "Wetland",      "name_short": "Wetland",      "description": null, "color": "#00DB84"},
+            {"code": 5, "name_long": "Artificial",   "name_short": "Artificial",   "description": null, "color": "#E60017"},
+            {"code": 6, "name_long": "Other land",   "name_short": "Bare land",    "description": null, "color": "#FFF3D7"},
+            {"code": 7, "name_long": "Water body",   "name_short": "Water body",   "description": null, "color": "#0053C4"}
+        ],
+        "nodata": {"code": -32768, "name_long": "No data", "name_short": "No data", "description": null, "color": "#000000"}
+    },
+    "child": {
+        "name": "GLC-FCS30D Land Cover",
+        "key": [
+            {"code": 10,  "name_long": null, "name_short": "10",  "description": null, "color": null},
+            {"code": 11,  "name_long": null, "name_short": "11",  "description": null, "color": null},
+            {"code": 12,  "name_long": null, "name_short": "12",  "description": null, "color": null},
+            {"code": 20,  "name_long": null, "name_short": "20",  "description": null, "color": null},
+            {"code": 51,  "name_long": null, "name_short": "51",  "description": null, "color": null},
+            {"code": 52,  "name_long": null, "name_short": "52",  "description": null, "color": null},
+            {"code": 61,  "name_long": null, "name_short": "61",  "description": null, "color": null},
+            {"code": 62,  "name_long": null, "name_short": "62",  "description": null, "color": null},
+            {"code": 71,  "name_long": null, "name_short": "71",  "description": null, "color": null},
+            {"code": 72,  "name_long": null, "name_short": "72",  "description": null, "color": null},
+            {"code": 81,  "name_long": null, "name_short": "81",  "description": null, "color": null},
+            {"code": 82,  "name_long": null, "name_short": "82",  "description": null, "color": null},
+            {"code": 91,  "name_long": null, "name_short": "91",  "description": null, "color": null},
+            {"code": 92,  "name_long": null, "name_short": "92",  "description": null, "color": null},
+            {"code": 120, "name_long": null, "name_short": "120", "description": null, "color": null},
+            {"code": 121, "name_long": null, "name_short": "121", "description": null, "color": null},
+            {"code": 122, "name_long": null, "name_short": "122", "description": null, "color": null},
+            {"code": 130, "name_long": null, "name_short": "130", "description": null, "color": null},
+            {"code": 140, "name_long": null, "name_short": "140", "description": null, "color": null},
+            {"code": 150, "name_long": null, "name_short": "150", "description": null, "color": null},
+            {"code": 151, "name_long": null, "name_short": "151", "description": null, "color": null},
+            {"code": 152, "name_long": null, "name_short": "152", "description": null, "color": null},
+            {"code": 153, "name_long": null, "name_short": "153", "description": null, "color": null},
+            {"code": 181, "name_long": null, "name_short": "181", "description": null, "color": null},
+            {"code": 182, "name_long": null, "name_short": "182", "description": null, "color": null},
+            {"code": 183, "name_long": null, "name_short": "183", "description": null, "color": null},
+            {"code": 184, "name_long": null, "name_short": "184", "description": null, "color": null},
+            {"code": 185, "name_long": null, "name_short": "185", "description": null, "color": null},
+            {"code": 190, "name_long": null, "name_short": "190", "description": null, "color": null},
+            {"code": 200, "name_long": null, "name_short": "200", "description": null, "color": null},
+            {"code": 201, "name_long": null, "name_short": "201", "description": null, "color": null},
+            {"code": 202, "name_long": null, "name_short": "202", "description": null, "color": null},
+            {"code": 210, "name_long": null, "name_short": "210", "description": null, "color": null},
+            {"code": 220, "name_long": null, "name_short": "220", "description": null, "color": null}
+        ],
+        "nodata": {"code": -32768, "name_long": "No data", "name_short": "No data", "description": null, "color": null}
+    },
+    "nesting": {
+        "1":     [51, 52, 61, 62, 71, 72, 81, 82, 91, 92, 185],
+        "2":     [120, 121, 122, 130, 140, 150, 151, 152, 153],
+        "3":     [10, 11, 12, 20],
+        "4":     [181, 182, 183, 184],
+        "5":     [190],
+        "6":     [200, 201, 202, 220],
+        "7":     [210],
+        "-32768": [-32768]
+    }
+}

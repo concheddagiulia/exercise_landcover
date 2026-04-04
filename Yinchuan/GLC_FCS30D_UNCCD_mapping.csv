@@ -1,0 +1,40 @@
+GLC_Code,GLC_Class_Name,UNCCD_Code,UNCCD_Class,Notes
+10,Rainfed cropland,3,Cropland,
+11,Herbaceous cover cropland,3,Cropland,
+12,Tree or shrub cover cropland,3,Cropland,
+20,Irrigated cropland,3,Cropland,
+51,Open evergreen broadleaved forest,1,Tree-covered,
+52,Closed evergreen broadleaved forest,1,Tree-covered,
+61,Open deciduous broadleaved forest,1,Tree-covered,
+62,Closed deciduous broadleaved forest,1,Tree-covered,
+71,Open evergreen needle-leaved forest,1,Tree-covered,
+72,Closed evergreen needle-leaved forest,1,Tree-covered,
+81,Open deciduous needle-leaved forest,1,Tree-covered,
+82,Closed deciduous needle-leaved forest,1,Tree-covered,
+91,Open mixed leaf forest,1,Tree-covered,
+92,Closed mixed leaf forest,1,Tree-covered,
+120,Shrubland,2,Grassland,
+121,Evergreen shrubland,2,Grassland,
+122,Deciduous shrubland,2,Grassland,
+130,Grassland,2,Grassland,
+140,Lichens and mosses,2,Grassland,
+150,Sparse vegetation,2,Grassland,
+151,Sparse shrubland,2,Grassland,
+152,Sparse herbaceous cover,2,Grassland,
+153,Sparse tree cover,2,Grassland,
+181,Swamp,4,Wetland,
+182,Marsh,4,Wetland,
+183,Flooded flat,4,Wetland,
+184,Saline,4,Wetland,
+185,Mangrove,1,Tree-covered,Mangrove mapped as Tree-covered per script
+190,Impervious surface,5,Artificial,
+200,Bare areas,6,Other land,
+201,Consolidated bare areas,6,Other land,
+202,Unconsolidated bare areas,6,Other land,
+210,Water body,7,Water body,
+220,Permanent snow and ice,6,Other land,
+0,Fill value,0,Unmapped,Not mapped in script
+93-119,Unclassified gap,0,Unmapped,Not covered by script ranges
+186,Salt marsh,0,Unmapped,Outside 181-184 range in script
+187,Tidal flat,0,Unmapped,Outside 181-184 range in script
+255,Masked NoData,-32768,No data,Masked out
