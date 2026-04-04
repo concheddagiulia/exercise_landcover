@@ -18,7 +18,7 @@ README.md
 reclass_GLC_FCS30D_UNCCD.json   Table that reclassifies the original land GLC_FCS30 to the UNCCD 7 classes
 yinchuan.geojson - AOI
 GLC_FCS30D_original.qml  Style ready for upload
-
+lc_degradation_stats.py  simple script to quickly compute land degradation statistics
 
 ## TO START Download all files
 <CODE> Download zip files
